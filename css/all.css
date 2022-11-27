@@ -233,6 +233,10 @@ footer .icons .whatsapp {
   color: white;
   background-color: #25d366;
 }
+footer .icons .github {
+  background-color: #171515;
+  color: white;
+}
 .my-botton {
   color: var(--yellow-color);
 }
@@ -243,3 +247,18 @@ footer .icons .whatsapp {
 }
 
 /* end footer */
+/* start thanks */
+.thanks {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.thanks h1,
+h5 {
+  color: var(--dark-color);
+}
+.thanks-icon {
+  color: var(--dark-color);
+}
+/* end thanks */
